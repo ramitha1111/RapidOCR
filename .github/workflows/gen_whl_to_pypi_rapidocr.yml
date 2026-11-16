@@ -1,6 +1,7 @@
 name: Push rapidocr to pypi
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*"
